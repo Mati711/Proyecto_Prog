@@ -11,24 +11,35 @@ background-color: palevioletred;
 
 h1 {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 ol {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .acción {
     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    height: 50vh;
+    width: 30vw;
 }
