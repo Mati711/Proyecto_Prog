@@ -11,7 +11,7 @@ background-color: palevioletred;
 
 h1 {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 p {
@@ -24,12 +24,22 @@ h2 {
     font-family: 'Poppins', sans-serif;
 }
 
+h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
 ul {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
 ol {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
