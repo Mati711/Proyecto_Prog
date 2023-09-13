@@ -100,8 +100,10 @@ favoritos {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
     color: white;
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 p {
@@ -110,6 +112,7 @@ p {
 }
 
 h2 {
+    font-size: 30px;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -141,11 +144,72 @@ li {
 
 img {
     height: 50vh;
-    width: 30vw;
+    width: 25vw;
     border-radius: 2%;
     border-color: white;
 }
 
 a {
     color: white;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+}
+
+.inputBusqueda {
+    width: 600px;
+
+
+}
+
+.container1 {
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    
+}
+
+.peli1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.peli2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.peli3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.peli4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.peli5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+>>>>>>> Stashed changes
