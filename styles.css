@@ -25,7 +25,8 @@ body {
     margin-block-end: 20px;
 }
 
-.search{width: 120px;
+.search
+{   width: 120px;
     height: 15px;
     text-align: center;
     background: black;
@@ -151,9 +152,7 @@ img {
 
 a {
     color: white;
-<<<<<<< Updated upstream
-}
-=======
+
 }
 
 header {
@@ -171,8 +170,6 @@ header {
 }
 
 .container1 {
-    list-style: none;
-    padding: 0%;
     display: flex;
     
 }
@@ -181,35 +178,34 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around; 
+
 }
 
 .peli2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+
 }
 
 .peli3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+
 }
 
 .peli4 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+
 }
 
 .peli5 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
 }
 
->>>>>>> Stashed changes
+
