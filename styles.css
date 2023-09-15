@@ -6,6 +6,11 @@ body {
     text-decoration: none;
     font-size: x-large;}
 
+.topimg {
+    width: 100%;
+    padding: 0%;
+    height: 400px;
+}
 .abajoh {
     list-style-type: none;
     line-height: 60px;
@@ -39,12 +44,12 @@ body {
 
 .itemlista {
     width: 120px;
-    text-align: center;
+    text-align:center;
     background: black;
     padding: 10px;
     text-decoration: none;
     list-style-type: none;
-    align-items: center;
+    align-items:center;
     border-radius: 30px;
     margin: auto;
     margin-top: 30px;
@@ -165,7 +170,6 @@ width: 80px;
 
 .container1 {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -197,29 +201,154 @@ width: 80px;
 
 }
 
-.peli5 {
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serie1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.serie2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.serie3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.serie4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.serie5 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fracaso1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.fracaso2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.fracaso3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.fracaso4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.fracaso5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
 @media (max-width: 1100px){
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .arriba {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         
     }
     img {
         height: 300px;
         width: 200px;
     }
+    .topimg {
+        width: 100%;
+        padding: 0%;
+        height: 400px;
+    }
+}
 
+@media (max-width: 900px){
+    .arriba {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    img {
+        height: 300px;
+        width: 200px;
+    }
+    .topimg {
+        width: 986px;
+        height: 400px;
+    }
 
-
-
-
-@media (max-width: 430px){
-
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     }
 
+    @media (max-width: 580px){
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .arriba {
+            display: block;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        img {
+            height: 300px;
+            width: 200px;
+        }
+        .topimg {
+            width: 385px;
+            height: 234px;
+        }
+
+        .abajop {
+
+        }
+    }
