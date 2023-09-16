@@ -86,10 +86,9 @@ body {
 
 }
 .favorite {
-    display: flex;
+    display: block;
     background-color: transparent;
     color: palevioletred;
-    padding-top: 10px;
     text-decoration: none;
 
 }
@@ -186,10 +185,6 @@ height: 400px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
-    background-color: aqua;
-
-
 }
 
 .peli2 {
