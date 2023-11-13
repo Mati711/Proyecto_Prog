@@ -164,7 +164,7 @@ header {
 
 .logo {
 height: 80px;
-width: 80px;
+width: 100px;
 }
 
 .trailer {
@@ -293,6 +293,13 @@ height: 400px;
 
 }
 
+.TMDB {
+    align-items: center;
+    width: 40px;
+    height: 20px;
+
+}
+
 
 
 @media (max-width: 1100px){
@@ -320,6 +327,13 @@ height: 400px;
 
     p {
         display: block;
+    }
+
+    .TMDB {
+        align-items: center;
+        width: 20px;
+        height: 10px; 
+    
     }
 }
 
@@ -352,6 +366,13 @@ height: 400px;
     p {
             display: block;
         }
+    
+    .TMDB {
+        align-items: center;
+        width: 20px;
+        height: 10px; 
+        
+        }
 
     }
 
@@ -383,5 +404,11 @@ height: 400px;
             }
         p {
                 display: block;
+            }
+
+        .TMDB {
+            align-items: center;
+            width: 20px;
+            height: 10px;   
             }
     }
