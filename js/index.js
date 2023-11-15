@@ -1,17 +1,17 @@
-api_key = "dd90d0acdb090a890837077054c376e1"
-let urlUserpopular = `https://api.themoviedb.org/3/discover/movie?api_key=dd90d0acdb090a890837077054c376e1&include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`
-let urlUsertoprated = `https://api.themoviedb.org/3/discover/movie?api_key=dd90d0acdb090a890837077054c376e1&include_adult=false&include_video=false&language=en-US&page=1&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200`
-let urlseriespopu = `https://api.themoviedb.org/3/discover/tv?api_key=dd90d0acdb090a890837077054c376e1&include_adult=false&language=en-US&page=1&sort_by=popularity.desc`
+let api_key = "dd90d0acdb090a890837077054c376e1"
+let urlUserpopular = `https://api.themoviedb.org/3/discover/movie?api_key=${api_key}&include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`;
+let urlUsertoprated = `https://api.themoviedb.org/3/discover/movie?api_key=${api_key}&include_adult=false&include_video=false&language=en-US&page=1&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200`;
+let urlseriespopu = `https://api.themoviedb.org/3/discover/tv?api_key=${api_key}&include_adult=false&language=en-US&page=1&sort_by=popularity.desc`;
 
 let sectionpopular = document.querySelector('.container1')
 fetch(urlUserpopular)
-.then(function(response) {
-    return response.json();
+    .then(function(response) {
+        return response.json();
 })
-.then(function(data) {
-    console.log(data)
-    let result = data.results;
-    let contenido = "";
+    .then(function(data) {
+        console.log(data)
+        let result = data.results;
+        let contenido = "";
 
     for (let i = 0; i < 5; i++) {
         contenido += `<article class="peli1">

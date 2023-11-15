@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <title>Marathon</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
-        <div>
-            <ul class="arriba">
-    
-                <li class="barra"><img src="../img/7c32cf179c28869753c33028b06d443b-removebg-preview.png" alt="" class="logo" ></li>
-                <li class="itemlista"><a href="./index.html" class="navlink">INICIO</a></li>
-                <li class="itemlista"><a href="./genres.html" class="navlink">GÉNEROS</a></li>
-                <li class="itemlista"><a href="./detail-movie.html" class="navlink">PELÍCULAS</a></li>
-                <li class="itemlista"><a href="./favourite.html" class="navlink">FAVORITOS</a></li>
-                <li class="barra"><form action="./search-results.html"><input type="peliculas" placeholder="Escribe aqui" name="search" class="search"><button type="submit">Buscar</button></form></li>
-    
-            </ul>
-            </div>
-
+      <div>
+        <ul class="arriba">
+          <li class="barra">
+            <img
+              src="../img/7c32cf179c28869753c33028b06d443b-removebg-preview.png"
+              alt=""
+              class="logo"
+            />
+          </li>
+          <li class="itemlista">
+            <a href="./index.html" class="navlink">INICIO</a>
+          </li>
+          <li class="itemlista">
+            <a href="./genres.html" class="navlink">GÉNEROS</a>
+          </li>
+          <li class="itemlista">
+            <a href="./detail-movie.html" class="navlink">PELÍCULAS</a>
+          </li>
+          <li class="itemlista">
+            <a href="./favourite.html" class="navlink">FAVORITOS</a>
+          </li>
+          <li class="barra">
+            <form action="./search-results.html">
+              <input
+                type="peliculas"
+                placeholder="Escribe aqui"
+                name="search"
+                class="search"
+              /><button type="submit">Buscar</button>
+            </form>
+          </li>
+        </ul>
+      </div>
     </header>
-    <h2>ACCIÓN</h2>
+    <h2 class="titulo"></h2>
 
     <section class="contenedorgenre">
-    <h3>Péliculas</h3>
-    <ul>
-        <article class="genre MB">
-        <li> Super Mario Bros: La película </li>
-        <img src="../img/Super_Mario_Bros_La_pelaicula-521125124-large.jpeg" border="6">
-        </article>
-
-        <article class="genre GG">
-        <li> Guardianes de la Galaxia vol. 3 </li>
-        <img src="../img/Guardianes_de_la_galaxia_Vol_3-734578362-large.jpeg" border="6">
-        </article>
-
-        <article class="genre FF">
-        <li> Rapidos y Furiosos X </li>
-        <img src="../img/Rapidos_y_Furiosos_X.webp" border="6">
-        </article>
-
-        <article class="genre flash">
-        <li> Flash </li>
-        <img src="../img/flash.jpeg" border="6">
-        </article>
-
-        <article class="genre transformers">
-        <li> Transformers: El Despertar de las Bestias </li>
-        <img src="../img/transformers.jpeg" border="6">
-        </article>        
-    </ul>
-
-    <h3>Series</h3>
-    <ul>
-        <article class="genre GOT">
-        <li> Juego de tronos </li>
-        <img src="../img/game-of-thrones-season-1-key-art-i160751.jpg" border="6">
-        </article>
-    </ul>
+      <ul class="resultados-genero"></ul>
     </section>
     <footer class="footer">
-        <ul class="abajop">
-            <li class="abajoh"><a class="letra" href=""> Matias David & Uma Podestá</a></li>
-        </ul>
+      <ul class="abajop">
+        <li class="abajoh">
+          <a class="letra" href=""> Matias David & Uma Podestá</a>
+        </li>
+      </ul>
     </footer>
-</body>
+    <script src="../js/detail-genres.js"></script>
+  </body>
 </html>
