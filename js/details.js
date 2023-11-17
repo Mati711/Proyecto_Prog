@@ -17,7 +17,7 @@ if (type == "pelicula") {
     .then(function(data) {
         console.log(data)
         let contenido = `<h2>${data.title}</h2>
-        <img src="https://image.tmdb.org/t/p/w500/${data.backdrop_path}">
+        <img src="https://image.tmdb.org/t/p/w500/${data.backdrop_path}" border="6">
         <p> <b>Estreno: </b>${data.release_date}</p>
         <p> <b>Duración: </b> ${data.runtime} minutes</p>
         <p>Generos:  ${data.genres[0].name}</p>
