@@ -179,119 +179,23 @@ height: 400px;
 .container1 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.peli1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.peli2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.peli3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.peli4 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.peli5 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
 
 .container2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.serie1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.serie2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.serie3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.serie4 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.serie5 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
 .container3 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.fracaso1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.fracaso2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.fracaso3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.fracaso4 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-.fracaso5 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
 
 .TMDB {
     align-items: center;

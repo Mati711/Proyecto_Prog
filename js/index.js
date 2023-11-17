@@ -17,7 +17,7 @@ fetch(urlUserpopular)
         contenido += `<article class="peli1">
         <a href="./detail-movie.html?id=${result[i].id}&type=pelicula"><h3>${result[i].title}</h3></a>
         <img src="https://image.tmdb.org/t/p/w500/${result[i].poster_path}" border="6">
-        <p>Fecha de estreno:${result[i].release_date}</p>
+        <p>Fecha de estreno: ${result[i].release_date}</p>
     </article>`
     }
 
