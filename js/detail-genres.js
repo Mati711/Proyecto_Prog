@@ -16,10 +16,14 @@ if (type == "pelicula") {
       titulo.innerHTML = tituloURL;
       let contenedor = document.querySelector(".resultados-genero");
       for (let i = 0; i < data.results.length; i++) {
-        contenedor.innerHTML += `<li>
-        <img src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}">
-        <a href="./detail-movie.html?id=${data.results[i].id}&type=pelicula">${data.results[i].title}</a>
-        </li>`;
+        contenedor.innerHTML += `<section>
+        <article>
+          <img src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}"></article>
+        <article> 
+          <a href="./detail-movie.html?id=${data.results[i].id}&type=pelicula">${data.results[i].title}</a>
+        </article>
+       
+        </section>`;
       }
       console.log(data);
     });
